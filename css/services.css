@@ -1,0 +1,219 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.face {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 5rem;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+  padding-top: 0.5rem;
+  align-items: center;
+}
+
+.logo {
+  padding-left: 15px;
+}
+.btn {
+  background-color: #18aadd;
+  color: #5f5f5f;
+  height: 50px;
+  outline: none;
+  border: none;
+}
+
+#hero {
+  width: 100%;
+  height: 500px;
+  background: url("../img/super_carry_pc.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.our {
+  background: #ffff;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: -6rem;
+}
+/* .body-image{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.box > img {
+    width: 420px;
+    height: 200px;
+}
+.body-image-two{
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 2rem;
+      
+}
+.box-two > img{
+     width: 420px;
+    height: 200px;
+
+} */
+
+section > .divs {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+.img1 {
+  width: 250px;
+  background-image: url("../img/slide1b.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30%;
+  height: 200px;
+}
+.img2 {
+  width: 250px;
+  background-image: url("../img/sesame.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30%;
+  height: 200px;
+}
+.img3 {
+  width: 250px;
+  background-image: url("../img/slide2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30%;
+  height: 200px;
+}
+.img4 {
+  width: 250px;
+  background-image: url("../img/peanut.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30%;
+  height: 200px;
+}
+.img5 {
+  width: 250px;
+  background-image: url("../img/fertilizer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30%;
+  height: 200px;
+}
+.img6 {
+  width: 250px;
+  background-image: url("../img/super_carry_pc.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30%;
+  height: 200px;
+}
+.divs > .img1 > h2 {
+  font-family: sans-serif;
+  color: blue;
+  text-align: center;
+}
+.divs > .img2 > h2 {
+  font-family: sans-serif;
+  color: blue;
+  text-align: center;
+}
+.divs > .img3 > h2 {
+  font-family: sans-serif;
+  color: blue;
+  text-align: center;
+}
+.divs > .img4 > h2 {
+  font-family: sans-serif;
+  color: blue;
+  text-align: center;
+}
+.divs > .img5 > h2 {
+  font-family: sans-serif;
+  color: blue;
+  text-align: center;
+}
+.divs > .img6 > h2 {
+  font-family: sans-serif;
+  color: blue;
+  text-align: center;
+}
+.divs > .img1 > p {
+  font-family: sans-serif;
+  color: black;
+  text-align: center;
+}
+.divs > .img2 > p {
+  font-family: sans-serif;
+  color: black;
+  text-align: center;
+}
+.divs > .img3 > p {
+  font-family: sans-serif;
+  color: black;
+  text-align: center;
+}
+.divs > .img4 > p {
+  font-family: sans-serif;
+  color: black;
+  text-align: center;
+}
+.divs > .img5 > p {
+  font-family: sans-serif;
+  color: black;
+  text-align: center;
+}
+.divs > .img6 > p {
+  font-family: sans-serif;
+  color: black;
+  text-align: center;
+}
+.detail {
+  display: flex;
+  background: #091e3e;
+  /* justify-content: center;
+  align-items: center; */
+  justify-content: space-around;
+  width: 100%;
+  line-height: 10px;
+  color: white;
+  height: 300px;
+  padding-top: 4rem;
+}
+.inner-detail {
+  display: flex;
+  flex-direction: column;
+  line-height: 4px;
+
+  /* justify-content: center;
+    align-items: center; */
+}
+.foot {
+  display: flex;
+  justify-content: center;
+  background: #061429;
+  font-family:  sans-serif;
+  font-size: 16px;
+  color: #ffff;
+}
+
+
